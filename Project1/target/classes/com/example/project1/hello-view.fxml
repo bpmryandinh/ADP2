@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="756.0" prefWidth="506.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project1.ChangeController">
+    <padding>
+        <Insets bottom="40.0" left="80.0" right="80.0" top="200.0" />
+    </padding>
+    <Label fx:id="differenceText" />
+    <Label fx:id="changeText" />
+    <Label fx:id="welcomeText" />
+    <TextField fx:id="userInput" prefHeight="26.0" prefWidth="120.0" />
+    <Button onAction="#MakeChange" text="Make Change" />
+    <Label fx:id="fiftyText" />
+    <Label fx:id="twentyText" />
+    <Label fx:id="tenText" />
+    <Label fx:id="fiveText" />
+    <Label fx:id="oneText" />
+    <Label fx:id="quarterText" />
+    <Label fx:id="dimeText" />
+    <Label fx:id="nickelText" />
+    <Label fx:id="pennyText" />
+</VBox>
